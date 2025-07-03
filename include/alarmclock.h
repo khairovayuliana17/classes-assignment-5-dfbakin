@@ -9,7 +9,7 @@ class AlarmClock {
 
     // Возвращают *this для цепочек вызовов
     AlarmClock& setTime(int hours, int minutes);
-    AlarmClock& turnOn();
+    AlarmClock& turnOn();     
     AlarmClock& turnOff();
     AlarmClock& setVolume(int volume);
     AlarmClock& setMelody(const std::string& melody);

@@ -19,6 +19,7 @@ jobs:
 
   run-autograding-tests:
     runs-on: ubuntu-latest
+    needs: pre-commit
     if: github.actor != 'github-classroom[bot]'
     steps:
     - name: Checkout code
